@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "big-data-knowledge-engineering-lab"
+version = "0.1.0"
+description = "A modular Big Data, Data Science and Knowledge Engineering teaching pipeline for Level 7 Computing"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["dataeng", "datascience", "knowledgeeng", "reporting"]
+package-dir = {"" = "src"}
